@@ -1,10 +1,10 @@
-# CS 276 · PacBlitz
+# CS 276 · Pac-Blitz
 
 *(Born a Pac-Man clone in Lecture W1R1. Became **Blitz the Bearcat** the same
 morning. Nobody has built this game before - that is the point.)*
 
 **Blitz** roams Willamette's campus buildings eating **marionberries** (Marion
-County's own berry), growing from **First-Year** to **Junior** to **Senior**,
+County's own berry), growing from **First-Year** to **Sophomore** to **Junior** to **Senior**,
 one floor at a time. Right now that is four builds of scaffolding; every lecture
 from here on upgrades this repo until, by the showcase, it is a complete
 original game. Each branch is a checkpoint from class; `main` is the current
@@ -37,8 +37,8 @@ edited live first, or your edits will fight the checkout.)
 ## Try it
 
 ```bash
-git clone https://github.com/LucasCordova/pacblitz.git
-cd pacblitz
+git clone https://github.com/LucasCordova/pac-blitz.git
+cd pac-blitz
 ```
 
 Open `project.godot` in Godot (standard build). Run the project; arrow keys move

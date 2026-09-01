@@ -17,9 +17,21 @@ finished state.
 | `Build3` | A row of marionberries you can eat; count in Output | scenes-in-code (`preload` + `instantiate`), `for` loops, a first **signal** |
 | `main`   | All of the above plus a wandering ghost | arrays, `pick_random()`, `Timer` |
 
-Yes, a *ghost* - a stand-in. Who actually chases Blitz through the buildings is
-a class decision (current pitch: Northwest Conference rival mascots). Until the
-vote lands, the placeholder haunts `main`.
+The ghost *sprite* is a stand-in until the rival art lands, but the cast is
+signed: Pac-Blitz's enemies are the Northwest Conference's finest, each with a
+personality that becomes a real brain in the state-machines weeks.
+
+| Rival | Personality |
+| --- | --- |
+| The Linfield Wildcat | **The chaser** - runs straight at Blitz. Relentless. |
+| The Puget Sound Logger | **The ambusher** - fells the corridor ahead of you. |
+| The George Fox Bruin | **The flanker** - a bigger bear stalking a bearcat. |
+| The Pacific Boxer | **The wildcard** - swings wild, wanders off. Nobody knows. |
+
+Also canon: **figs** trigger the *Fig Break* - for a few seconds the chase
+flips and the rivals run from Blitz. Building two is the **Hatfield Library**
+(endless shelf-mazes). All rival art stays original pixel caricatures - a
+generic wildcat, logger, bruin, and boxer - never school logos.
 
 ## Presenting from this repo
 

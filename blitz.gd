@@ -3,6 +3,7 @@ extends CharacterBody2D
 @export var speed: float = 260.0
 
 func _process(delta: float) -> void:
+    print("frame:   ", delta)
     var direction := Vector2.ZERO
     if Input.is_action_pressed("ui_left"):
         direction = Vector2.LEFT
@@ -34,3 +35,6 @@ func _update_facing(direction: Vector2) -> void:
         Vector2.DOWN:
             sprite.flip_h = false
             sprite.rotation_degrees = 90
+
+func _physics_process(delta: float) -> void:
+    print("physics: ", delta)

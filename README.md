@@ -3,9 +3,9 @@
 *(Born a Pac-Man clone in Lecture W1R1. Became **Blitz the Bearcat** the same
 morning. Nobody has built this game before - that is the point.)*
 
-**Blitz** roams Willamette's campus buildings eating **marionberries** (Marion
+**Blitz** runs a gauntlet of **mazes**, eating **marionberries** (Marion
 County's own berry), growing from **First-Year** to **Sophomore** to **Junior** to **Senior**,
-one floor at a time. Right now that is four builds of scaffolding; every lecture
+one maze at a time. Right now that is four builds of scaffolding; every lecture
 from here on upgrades this repo until, by the showcase, it is a complete
 original game. Each branch is a checkpoint from class; `main` is the current
 finished state.
@@ -29,9 +29,9 @@ personality that becomes a real brain in the state-machines weeks.
 | The Pacific Boxer | **The wildcard** - swings wild, wanders off. Nobody knows. |
 
 Also canon: **figs** trigger the *Fig Break* - for a few seconds the chase
-flips and the rivals run from Blitz. Building two is the **Hatfield Library**
-(endless shelf-mazes). All rival art stays original pixel caricatures - a
-generic wildcat, logger, bruin, and boxer - never school logos.
+flips and the rivals run from Blitz. Every maze is its own design; new mazes
+land when the course reaches level design. All rival art stays original pixel
+caricatures - a generic wildcat, logger, bruin, and boxer - never school logos.
 
 ## Presenting from this repo
 
@@ -63,7 +63,7 @@ Why does the berry not care who touched it? Collision layers and masks: next wee
 Walls and real collision (next week), the berry count on *screen* instead of the
 Output panel (signals, week 3), enemy brains (state machines, weeks 4-5), Blitz's
 growth stages (state machines + data-driven design, weeks 4-6), the actual
-building floors (level building, week 10). Blitz grows with the course -
+mazes (level building, week 10). Blitz grows with the course -
 literally.
 
 ## Optional: git inside the Godot editor

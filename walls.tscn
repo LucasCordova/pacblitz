@@ -1,0 +1,81 @@
+[gd_scene load_steps=7 format=3]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_top"]
+size = Vector2(1152, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bottom"]
+size = Vector2(1152, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_left"]
+size = Vector2(24, 648)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_right"]
+size = Vector2(24, 648)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bar1"]
+size = Vector2(24, 180)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bar2"]
+size = Vector2(240, 24)
+
+[node name="Walls" type="StaticBody2D"]
+
+[node name="TopRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 24.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="BottomRect" type="ColorRect" parent="."]
+offset_top = 624.0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="LeftRect" type="ColorRect" parent="."]
+offset_right = 24.0
+offset_bottom = 648.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="RightRect" type="ColorRect" parent="."]
+offset_left = 1128.0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="Bar1Rect" type="ColorRect" parent="."]
+offset_left = 480.0
+offset_top = 80.0
+offset_right = 504.0
+offset_bottom = 260.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="Bar2Rect" type="ColorRect" parent="."]
+offset_left = 600.0
+offset_top = 460.0
+offset_right = 840.0
+offset_bottom = 484.0
+color = Color(0.16, 0.13, 0.35, 1)
+
+[node name="Top" type="CollisionShape2D" parent="."]
+position = Vector2(576, 12)
+shape = SubResource("RectangleShape2D_top")
+
+[node name="Bottom" type="CollisionShape2D" parent="."]
+position = Vector2(576, 636)
+shape = SubResource("RectangleShape2D_bottom")
+
+[node name="Left" type="CollisionShape2D" parent="."]
+position = Vector2(12, 324)
+shape = SubResource("RectangleShape2D_left")
+
+[node name="Right" type="CollisionShape2D" parent="."]
+position = Vector2(1140, 324)
+shape = SubResource("RectangleShape2D_right")
+
+[node name="Bar1" type="CollisionShape2D" parent="."]
+position = Vector2(492, 170)
+shape = SubResource("RectangleShape2D_bar1")
+
+[node name="Bar2" type="CollisionShape2D" parent="."]
+position = Vector2(720, 472)
+shape = SubResource("RectangleShape2D_bar2")
